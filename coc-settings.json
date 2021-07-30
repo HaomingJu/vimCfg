@@ -3,14 +3,11 @@
   "snippets.userSnippetsDirectory": "~/.config/haoming/Snippets",
   "snippets.ultisnips.enable": true,
   "snippets.snipmate.enable": false,
-  "coc.preferences.previewAutoClose": false,
   "suggest.snippetIndicator": "*",
   "suggest.enablePreview": true,
   "suggest.noselect": false,
-  "python.jediEnabled": true,
   "translator.engines": [
-      "youdao",
-      "google"
+      "youdao"
   ],
   "python.pythonPath": "/usr/bin/python2.7",
   "python.linting.pylintEnabled": true,
