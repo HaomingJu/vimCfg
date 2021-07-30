@@ -1,6 +1,6 @@
 "Coc 插件
 
-call coc#add_extension('coc-clangd', 'coc-json', 'coc-cmake', 'coc-snippets', 'coc-python', 'coc-translator', 'coc-pairs', 'coc-pyright')
+call coc#add_extension('coc-clangd', 'coc-json', 'coc-cmake', 'coc-snippets', 'coc-translator', 'coc-pairs', 'coc-pyright')
 
 " Coc补全, Tab触发
 function! s:check_back_space() abort
