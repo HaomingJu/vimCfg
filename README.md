@@ -1,8 +1,6 @@
-![](./doc/screenshots/logo.png)
+# 支持系统
 
-# 支持
-
-![](https://assets.ubuntu.com/v1/8114528b-picto-ubuntu-orange.png) **Ubuntu16.04 LTS**
+![](https://img.shields.io/badge/Ubuntu16_04_LTS_Xenial-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu18_04_LTS_Bionic-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu20_04_LTS_Focal-FAILED-blue.svg)
 
 # 部署
 
@@ -36,7 +34,7 @@ vim -c :PlugInstall
 # TODOs
 
 - [x] Automatic deployment and usage of Ubuntu16.04 (Ubuntu16.04的自动部署和使用)
-- [ ] Automatic deployment and usage of Ubuntu18.04 (Ubuntu18.04的自动部署和使用)
+- [x] Automatic deployment and usage of Ubuntu18.04 (Ubuntu18.04的自动部署和使用)
 - [ ] Automatic deployment and usage of Ubuntu20.04 (Ubuntu20.04的自动部署和使用)
 - [ ] Show dynamic scrrentshots of features (功能动态截图展示)
 - [x] Vim complete with Perl (vim编译时支持Perl)
