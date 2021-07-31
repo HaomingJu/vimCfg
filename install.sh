@@ -14,6 +14,9 @@ fi
 if [ ${DISTRIB_RELEASE} == "18.04" ]; then
     ${auth} apt install -y ruby2.5-dev 2>&1 > /dev/null
 fi
+if [ ${DISTRIB_RELEASE} == "20.04" ]; then
+    ${auth} apt install -y ruby2.7-dev 2>&1 > /dev/null
+fi
 
 
 echo "START: Install build vim dep debs" >&2
