@@ -50,8 +50,8 @@ set hidden
 
 
 " 高亮光标所在行和列
-set cursorline                        " 高亮光标所在行
-set cursorcolumn                      " 高亮光标所在列
+"set cursorline                        " 高亮光标所在行
+"set cursorcolumn                      " 高亮光标所在列
 set nobackup
 set nowritebackup
 
@@ -59,7 +59,6 @@ packadd termdebug
 
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
 call plug#begin('~/.config/haoming/vimPlugin')
-Plug 'scrooloose/nerdtree'            "NERDTree插件:      显示目录树形结构
 Plug 'scrooloose/nerdcommenter'       "NERDCommenter插件: 用于注释
 Plug 'majutsushi/tagbar'              "tagbar插件         用于显示函数列表
 Plug 'rking/ag.vim'                   "Ag插件:            用于工程内全局文本搜索
@@ -83,6 +82,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons', {'branch': 'master'}
 Plug 'HaomingJu/vim-mark'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 :source ~/.vim/conf/summary.vim

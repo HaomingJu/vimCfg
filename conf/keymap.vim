@@ -20,7 +20,6 @@ map <F3> :Gblame<CR>              " 开关Git diff
 map <F4> :GitGutterToggle<CR>     " TODO
 map <F9> :CCtoggle<CR>            " TODO
 map <F12> :TagbarToggle<CR>       " 开闭函数结构窗口
-map <F10> :NERDTreeToggle<CR>     " 开闭目录树窗口
 
 
 vmap <C-c> "+y                        " 在Visual模式下，组合键Ctrl+c可以将选中的内容复制到系统剪切板中

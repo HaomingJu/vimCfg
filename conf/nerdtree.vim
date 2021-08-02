@@ -9,3 +9,4 @@ let NERDTreeChDirMode=2                                                 " 可修
 let NERDTreeShowBookmarks=1                                             " 显示Bookmarks标签
 let NERDTreeStatusline='NERDTree'                                       " 显示Bookmarks标签
 let NERDTreeMinimalUI=1                                                 " 精简化窗口
+nmap <F10> :NERDTreeToggle <CR>
