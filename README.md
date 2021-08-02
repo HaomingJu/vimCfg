@@ -44,3 +44,6 @@ vim -c :PlugInstall
 - [ ] Complete documentation of shortcut keys (完善快捷键说明文档)
 
 # Q&A
+
+# 其他
+![GitHub repo size](https://img.shields.io/github/repo-size/HaomingJu/vimCfg) 
