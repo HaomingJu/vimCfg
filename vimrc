@@ -54,8 +54,10 @@ set hidden
 "set cursorcolumn                      " 高亮光标所在列
 set nobackup
 set nowritebackup
+set t_TI= t_TE=
 
 packadd termdebug
+
 
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
 call plug#begin('~/.config/haoming/vimPlugin')
