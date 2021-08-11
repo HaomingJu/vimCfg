@@ -8,5 +8,5 @@
 :source ~/.vim/conf/markdown.vim
 :source ~/.vim/conf/other.vim
 :source ~/.vim/conf/rainbow.vim
-:source ~/.vim/conf/coc-extension.vim
+:source ~/.vim/conf/coc.vim
 :source ~/.vim/conf/nerdtree.vim
