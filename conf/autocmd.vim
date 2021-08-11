@@ -5,3 +5,4 @@ endfunc
 autocmd InsertLeave * :call SwitchInputMethod()
 autocmd BufCreate *  :call SwitchInputMethod()
 autocmd BufEnter *  :call SwitchInputMethod()
+autocmd VimEnter * :NoMatchParen
