@@ -61,18 +61,18 @@ packadd termdebug
 
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
 call plug#begin('~/.config/haoming/vimPlugin')
-Plug 'scrooloose/nerdcommenter'       "NERDCommenter插件: 用于注释
-Plug 'majutsushi/tagbar'              "tagbar插件         用于显示函数列表
-Plug 'rking/ag.vim'                   "Ag插件:            用于工程内全局文本搜索
-Plug 'dyng/ctrlsf.vim'                "ctrlsf插件:        更好用的代码查找工具
-Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension' }   "LeaderF插件:       用于模糊查找
-Plug 'Yggdroot/indentLine'            "indentLine插件:    用于连接for的首和尾
-Plug 'elzr/vim-json'                  "vim-json插件:      用于更好的显示json文件
+Plug 'scrooloose/nerdcommenter'
+Plug 'majutsushi/tagbar'
+Plug 'rking/ag.vim'
+Plug 'dyng/ctrlsf.vim'
+Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension' }
+Plug 'Yggdroot/indentLine'
+Plug 'elzr/vim-json'
 Plug 'easymotion/vim-easymotion'
-Plug 'luochen1990/rainbow'            "彩虹括号
-Plug 'rhysd/vim-clang-format'         "Clang-Format插件： 用于格式化代码风格
+Plug 'luochen1990/rainbow'
+Plug 'rhysd/vim-clang-format'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tpope/vim-speeddating'          " 强化数字自增/自减
+Plug 'tpope/vim-speeddating'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'itchyny/vim-cursorword'
@@ -85,9 +85,11 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons', {'branch': 'master'}
 Plug 'HaomingJu/vim-mark'
 Plug 'preservim/nerdtree'
+Plug 'HaomingJu/vim-snippets'
 call plug#end()
 
 :source ~/.vim/conf/summary.vim
 
 call SwitchColor()
 call Terminal_MetaMode(0)
+

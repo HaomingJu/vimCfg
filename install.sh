@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-vim_version="8.2.3290"
+vim_version="8.2.3326"
 auth=sudo
 
 echo "Update apt"
@@ -27,7 +27,8 @@ echo "START: Install npm & nodejs" >&2
 ${auth} apt install -y npm 
 ${auth} npm config set registry https://registry.npm.taobao.org 
 ${auth} npm install n -g 
-${auth} n stable 
+${auth} n latest
+${auto} n prune
 echo "DONE: Install npm & nodejs" >&2
 
 echo "START: Download vim source tar.gz" >&2
