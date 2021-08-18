@@ -9,10 +9,6 @@
   "translator.engines": [
       "youdao"
   ],
-  "explorer.icon.enableNerdfont": true,
-  "explorer.position": "right",
-  "explorer.width": 27,
-  "explorer.icon.source": "vim-devicons",
   "python.pythonPath": "/usr/bin/python2.7",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": false,
