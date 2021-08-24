@@ -86,6 +86,7 @@ Plug 'ryanoasis/vim-devicons', {'branch': 'master'}
 Plug 'HaomingJu/vim-mark'
 Plug 'preservim/nerdtree'
 Plug 'HaomingJu/vim-snippets'
+Plug 'asins/vimcdoc'
 call plug#end()
 
 :source ~/.vim/conf/summary.vim

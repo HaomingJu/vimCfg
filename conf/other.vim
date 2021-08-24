@@ -34,3 +34,7 @@ let g:lightline={'colorscheme': 'solarized'}
 " 恢复上次文件打开位置
 set viminfo='10,\"100,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif"'")"'")")'"
+
+" 设定 doc 文档目录
+let helptags=$VIM."/vimfiles/doc"
+set helplang=cn
