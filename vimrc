@@ -60,7 +60,7 @@ packadd termdebug
 
 
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
-call plug#begin('~/.config/haoming/vimPlugin')
+call plug#begin('~/.config/vimPlugin')
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'rking/ag.vim'
@@ -74,18 +74,15 @@ Plug 'rhysd/vim-clang-format'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-speeddating'
 Plug 'ekalinin/Dockerfile.vim'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'itchyny/vim-cursorword'
+"Plug 'terryma/vim-multiple-cursors'
+"Plug 'itchyny/vim-cursorword'
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'ryanoasis/vim-devicons', {'branch': 'master'}
 Plug 'HaomingJu/vim-mark'
 Plug 'preservim/nerdtree'
-Plug 'HaomingJu/vim-snippets'
 Plug 'asins/vimcdoc'
 call plug#end()
 
@@ -93,4 +90,5 @@ call plug#end()
 
 call SwitchColor()
 call Terminal_MetaMode(0)
+
 
