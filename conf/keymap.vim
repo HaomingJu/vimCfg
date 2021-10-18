@@ -1,4 +1,5 @@
-let mapleader="\<Space>"
+"let mapleader="\<Space>"
+let mapleader=","
 nmap <C-H> :wincmd h<CR>
 nmap <C-J> :wincmd j<CR>
 nmap <C-K> :wincmd k<CR>

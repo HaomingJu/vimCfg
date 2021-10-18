@@ -10,7 +10,6 @@ map <F7> :ClangFormat<CR>
 
 let g:clang_format#style_options = {
             \ "Standard": "C++11",
-            \ "BreakBeforeBraces": "Allman",
             \ "AlignAfterOpenBracket": "Align",
             \ "SpaceBeforeAssignmentOperators": "true",
             \ "AlignTrailingComments": "true",

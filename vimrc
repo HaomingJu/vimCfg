@@ -17,7 +17,7 @@ set showmatch                         " 设置匹配模式，显示匹配的括�
 set mouse=a                           " 使鼠标可用
 set magic                             " 设置魔术
 set number                            " 显示行号
-set relativenumber                    " 显示相对行号
+"set relativenumber                    " 显示相对行号
 set nocompatible                      " 去掉讨厌的有关vi一致性模式，避免以前的版本的一些漏洞和局限
 set backspace=indent,eol,start        " 使退格键可以正常使用
 set noswapfile                        " 禁止生成临时文件
@@ -74,8 +74,6 @@ Plug 'rhysd/vim-clang-format'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-speeddating'
 Plug 'ekalinin/Dockerfile.vim'
-"Plug 'terryma/vim-multiple-cursors'
-"Plug 'itchyny/vim-cursorword'
 Plug 'mzlogin/vim-markdown-toc'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
@@ -84,11 +82,10 @@ Plug 'vim-airline/vim-airline'
 Plug 'HaomingJu/vim-mark'
 Plug 'preservim/nerdtree'
 Plug 'asins/vimcdoc'
+Plug 'mg979/vim-visual-multi'
 call plug#end()
 
 :source ~/.vim/conf/summary.vim
 
 call SwitchColor()
 call Terminal_MetaMode(0)
-
-
