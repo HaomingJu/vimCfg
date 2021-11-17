@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
 
-vim_version="8.2.3326"
+vim_version="8.2.3598"
 auth=sudo
+
+#vim_with_python="--enable-pythoninterp=yes  \
+    #--with-python-command=`which python2` \
+    #--with-python-config-dir=`python2.7-config  --configdir` \
+    #"
+
+vim_with_python="--enable-python3interp=yes  \
+    --with-python3-command=`which python3` \
+    --with-python3-config-dir=`python3.5-config  --configdir` \
+    "
 
 echo "Update apt"
 ${auth} apt update
@@ -44,9 +54,7 @@ pushd vim-${vim_version}/
 ./configure --disable-libsodium \
     --with-features=huge \
     --enable-multibyte \
-    --enable-pythoninterp=yes  \
-    --with-python-command=`which python2.7` \
-    --with-python-config-dir=`python2.7-config  --configdir`  \
+    ${vim_with_python}
     --enable-rubyinterp=yes \
     --enable-perlinterp=yes \
     --enable-cscope \
