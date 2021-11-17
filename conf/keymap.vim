@@ -13,6 +13,7 @@ nmap <Leader>f :CtrlSF <C-R><C-W><CR>   " 搜索增强
 "map <Leader>e :CocCommand snippets.editSnippets<CR>
 map <Leader>e :CocDiagnostics<CR>
 
+nmap <C-s> :w<CR>
 
 
 
