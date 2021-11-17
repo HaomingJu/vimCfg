@@ -55,6 +55,7 @@ set hidden
 set nobackup
 set nowritebackup
 set t_TI= t_TE=
+set fillchars=vert:\ 
 
 packadd termdebug
 
