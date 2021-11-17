@@ -1,9 +1,13 @@
 {
   "http.proxy": "http://127.0.0.1:12333",
   "suggest.snippetIndicator": "*",
-  "snippets.userSnippetsDirectory": "~/.config/Snippets",
+  "snippets.priority": 100,
   "snippets.snipmate.enable": false,
   "snippets.ultisnips.enable": true,
+  "snippets.ultisnips.directories": [
+      "~/.vim/Snippets"
+  ],
+  "snippets.userSnippetsDirectory": "~/.vim/Snippets",
   "suggest.enablePreview": true,
   "suggest.noselect": false,
   "translator.engines": [
@@ -12,5 +16,9 @@
   "python.pythonPath": "/usr/bin/python2.7",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": false,
-  "clangd.path": "clangd"
+  "clangd.path": "/home/haoming/.config/coc/extensions/coc-clangd-data/install/clangd_13.0.0/bin/clangd",
+  "clangd.arguments": [
+      "--completion-style=detailed",
+      "--pch-storage=memory"
+  ],
 }
