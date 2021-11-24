@@ -57,7 +57,7 @@ set nowritebackup
 set t_TI= t_TE=
 set fillchars=vert:\ 
 
-packadd termdebug
+"packadd termdebug
 
 
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
@@ -66,22 +66,23 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'rking/ag.vim'
 Plug 'dyng/ctrlsf.vim'
-Plug 'Yggdroot/LeaderF', {'do': ':LeaderfInstallCExtension' }
 Plug 'Yggdroot/indentLine'
-Plug 'elzr/vim-json'
 Plug 'easymotion/vim-easymotion'
 Plug 'luochen1990/rainbow'
-Plug 'rhysd/vim-clang-format'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ekalinin/Dockerfile.vim'
 Plug 'godlygeek/tabular'
-Plug 'plasticboy/vim-markdown'
-Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'vim-airline/vim-airline'
 Plug 'HaomingJu/vim-mark'
-Plug 'preservim/nerdtree'
-Plug 'asins/vimcdoc'
 Plug 'mg979/vim-visual-multi'
+Plug 'asins/vimcdoc'
+
+Plug 'Yggdroot/LeaderF',                {'do': ':LeaderfInstallCExtension' }
+Plug 'neoclide/coc.nvim',               {'branch': 'release'}
+Plug 'preservim/nerdtree',              {'on': 'NERDTreeToggle'}
+Plug 'octol/vim-cpp-enhanced-highlight',{'for': 'cpp'}
+Plug 'rhysd/vim-clang-format',          {'for': 'cpp'}
+Plug 'elzr/vim-json',                   {'for': 'json'}
+Plug 'ekalinin/Dockerfile.vim',         {'for': 'Dockerfile'}
+Plug 'plasticboy/vim-markdown',         {'for': 'markdown'}
 call plug#end()
 
 :source ~/.vim/conf/summary.vim
