@@ -36,3 +36,6 @@ nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
 map Q <Nop>
+
+inoremap jj <Esc>
+noremap <Esc><Esc> :qa<CR>
