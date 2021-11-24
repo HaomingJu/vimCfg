@@ -10,5 +10,5 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = 0
 "let g:airline#extensions#tabline#show_tabs = 1
 
 
-let g:airline_section_z = 'Happy Every Day'
+let g:airline_section_z = ''
 "let g:airline_symbols_ascii = 1
