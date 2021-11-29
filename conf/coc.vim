@@ -1,6 +1,6 @@
 "Coc 插件
 
-call coc#add_extension('coc-clangd', 'coc-json', 'coc-cmake', 'coc-snippets', 'coc-translator', 'coc-pairs', 'coc-pyright', 'coc-vimlsp')
+call coc#add_extension('coc-clangd', 'coc-json', 'coc-cmake', 'coc-snippets', 'coc-pairs', 'coc-pyright', 'coc-vimlsp')
 
 " Coc补全, Tab触发
 function! s:check_back_space() abort
@@ -25,10 +25,6 @@ let g:coc_snippet_next = '<tab>'
 
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 				\: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
-" coc-translator 英文翻译
-nmap <Leader>t <Plug>(coc-translator-p)
-vmap <Leader>t <Plug>(coc-translator-pv)
 
 " 跳转至定义处
 nmap <Leader>d <Plug>(coc-definition)

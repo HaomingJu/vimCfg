@@ -38,3 +38,10 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 " 设定 doc 文档目录
 let helptags=$VIM."/vimfiles/doc"
 set helplang=cn
+
+" 翻译
+" Display translation in a window
+nmap <silent> <Leader>t <Plug>TranslateW
+vmap <silent> <Leader>t <Plug>TranslateWV
+let g:translator_default_engines=['google']
+let g:translator_proxy_url="http://127.0.0.1:12333"

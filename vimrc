@@ -74,6 +74,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'HaomingJu/vim-mark'
 Plug 'mg979/vim-visual-multi'
 Plug 'asins/vimcdoc'
+Plug 'voldikss/vim-translator'
 
 Plug 'Yggdroot/LeaderF',                {'do': ':LeaderfInstallCExtension' }
 Plug 'neoclide/coc.nvim',               {'branch': 'release'}
