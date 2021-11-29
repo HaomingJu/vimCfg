@@ -39,3 +39,5 @@ map Q <Nop>
 
 inoremap jj <Esc>
 noremap <Esc><Esc> :qa<CR>
+noremap tt :NERDTreeToggle<CR>
+
