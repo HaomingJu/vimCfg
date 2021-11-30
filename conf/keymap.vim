@@ -17,13 +17,6 @@ nmap <C-s> :wa<CR>
 
 
 
-" 功能键系列
-map <F3> :Gblame<CR>              " 开关Git diff
-map <F4> :GitGutterToggle<CR>     " TODO
-map <F9> :CCtoggle<CR>            " TODO
-map <F12> :TagbarToggle<CR>       " 开闭函数结构窗口
-
-
 vmap <C-c> "+y                        " 在Visual模式下，组合键Ctrl+c可以将选中的内容复制到系统剪切板中
 nmap <M-m> :set fileformat=unix<CR>   " 将文件格式置为unix
 nmap m gd                             " 高亮光标所在的单词
@@ -40,4 +33,4 @@ map Q <Nop>
 inoremap jj <Esc>
 noremap <Esc><Esc> :qa<CR>
 noremap tt :NERDTreeToggle<CR>
-
+noremap ff :TagbarToggle<CR>

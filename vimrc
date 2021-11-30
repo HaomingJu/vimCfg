@@ -63,30 +63,46 @@ set fillchars=vert:\
 " 插件安装管理器要安装的插件列表 Base URL: https://github.com
 call plug#begin('~/.config/vimPlugin')
 Plug 'scrooloose/nerdcommenter'
-Plug 'majutsushi/tagbar'
 Plug 'rking/ag.vim'
-Plug 'dyng/ctrlsf.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'easymotion/vim-easymotion'
 Plug 'luochen1990/rainbow'
-Plug 'godlygeek/tabular'
-Plug 'vim-airline/vim-airline'
-Plug 'HaomingJu/vim-mark'
+Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi'
 Plug 'asins/vimcdoc'
 Plug 'voldikss/vim-translator'
+Plug 'HaomingJu/vim-mark'
 
-Plug 'Yggdroot/LeaderF',                {'do': ':LeaderfInstallCExtension' }
+Plug 'dyng/ctrlsf.vim',                 {'on': 'CtrlSF'}
 Plug 'neoclide/coc.nvim',               {'branch': 'release'}
 Plug 'preservim/nerdtree',              {'on': 'NERDTreeToggle'}
+Plug 'majutsushi/tagbar',               {'on': 'TagbarToggle'}
 Plug 'octol/vim-cpp-enhanced-highlight',{'for': 'cpp'}
-Plug 'rhysd/vim-clang-format',          {'for': 'cpp'}
+Plug 'rhysd/vim-clang-format',          {'for': 'cpp', 'on': 'ClangFormat'}
 Plug 'elzr/vim-json',                   {'for': 'json'}
 Plug 'ekalinin/Dockerfile.vim',         {'for': 'Dockerfile'}
 Plug 'plasticboy/vim-markdown',         {'for': 'markdown'}
+Plug 'Yggdroot/LeaderF',                {
+            \'do': ':LeaderfInstallCExtension',
+            \'on': ['LeaderfFile', 'LeaderfBufTag', 'LeaderfMru', 'LeaderfHistoryCmd', 'LeaderfBuffer']}
 call plug#end()
 
-:source ~/.vim/conf/summary.vim
+:source ~/.vim/conf/autocmd.vim
+:source ~/.vim/conf/codestyle.vim
+:source ~/.vim/conf/funcs.vim
+:source ~/.vim/conf/keymap.vim
+:source ~/.vim/conf/coc.vim
 
+
+call SetRainbow()
+call SetLightline()
+call SetMarkdown()
+call SetNERDTree()
+call SetLeaderfF()
+call SetTagbar()
+call SetVimjson()
+call SetTranslate()
+call SetEasyMotion()
+call SetTextRecover()
 call SwitchColor()
 call Terminal_MetaMode(0)
