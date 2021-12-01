@@ -31,6 +31,8 @@ vim -c :PlugInstall
 
 # 文档参考
 
+[快捷键文档](./doc/ShortCutKey.md)
+
 # TODOs
 
 - [x] Automatic deployment and usage of Ubuntu16.04 (Ubuntu16.04的自动部署和使用)
@@ -40,8 +42,9 @@ vim -c :PlugInstall
 - [x] Vim complete with Perl (vim编译时支持Perl)
 - [x] Vim complete with Ruby (vim编译时支持Ruby)
 - [x] Vim complete with Python2 (vim编译时支持Python2)
-- [ ] Vim complete with Python3 (vim编译时支持Python3)
-- [ ] Complete documentation of shortcut keys (完善快捷键说明文档)
+- [x] Vim complete with Python3 (vim编译时支持Python3)
+- [x] Complete documentation of shortcut keys (完善快捷键说明文档)
+- [x] Lazy-load for plugin (支持延迟加载)
 
 # Q&A
 
