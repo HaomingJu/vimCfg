@@ -30,7 +30,7 @@ fi
 
 
 echo "START: Install build vim dep debs" >&2
-${auth} apt install -y ctags cscope curl libncurses5-dev libperl-dev python2.7-dev python2.7-dbg
+${auth} apt install -y ctags cscope curl libncurses5-dev libperl-dev vim-scripts vim-gtk vim-gnome vim-common
 echo "DONE: Install build vim dep debs" >&2
 
 echo "START: Install npm & nodejs" >&2
