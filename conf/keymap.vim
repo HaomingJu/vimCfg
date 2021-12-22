@@ -7,7 +7,7 @@ nmap <C-L> :wincmd l<CR>
 
 map <Leader>w :w<CR>                    " 保存文件
 map <Leader>s :vsplit<CR>               " 窗口竖向分割
-nmap <Leader>q :qa<CR>                  " 不保存退出文件
+nmap <Leader>q :qa!<CR>                  " 不保存退出文件
 vmap <Leader>y "+y                      " 复制选中字段至剪贴板
 nmap <Leader>f :CtrlSF <C-R><C-W><CR>   " 搜索增强
 "map <Leader>e :CocCommand snippets.editSnippets<CR>
@@ -28,9 +28,8 @@ nnoremap L gt
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
-map Q <Nop>
-
 inoremap jj <Esc>
 noremap <Esc><Esc> :qa<CR>
 noremap tt :NERDTreeToggle<CR>
 noremap ff :TagbarToggle<CR>
+

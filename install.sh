@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-vim_version="8.2.3598"
+vim_version="8.2.3863"
 auth=sudo
 
 #vim_with_python="--enable-pythoninterp=yes  \
@@ -10,7 +10,7 @@ auth=sudo
 
 vim_with_python="--enable-python3interp=yes  \
     --with-python3-command=`which python3` \
-    --with-python3-config-dir=`python3.5-config  --configdir` \
+    --with-python3-config-dir=`python3-config  --configdir` \
     "
 
 echo "Update apt"
@@ -67,3 +67,5 @@ echo "DONE: Build vim" >&2
 
 vim --version
 vim -c :PlugInstall
+
+# :CocCommand clangd.install 命令要下载的工具连接 https://github.com/clangd/clangd/releases/tag/13.0.0
