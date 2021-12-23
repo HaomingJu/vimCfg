@@ -1,20 +1,34 @@
-# 支持系统
+<!-- vim-markdown-toc GFM -->
 
-![](https://img.shields.io/badge/Ubuntu16_04_LTS_Xenial-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu18_04_LTS_Bionic-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu20_04_LTS_Focal-FAILED-blue.svg)
+* [1. 支持系统](#1-支持系统)
+* [2. 部署](#2-部署)
+    * [2.1 下载](#21-下载)
+    * [2.2 执行安装脚本](#22-执行安装脚本)
+    * [2.3 插件安装](#23-插件安装)
+* [3. 文档参考](#3-文档参考)
+* [4. TODOs](#4-todos)
+* [5. Q&A](#5-qa)
+* [6. 其他](#6-其他)
 
-# 部署
+<!-- vim-markdown-toc -->
 
-下载
+# 1. 支持系统
+
+![](https://img.shields.io/badge/Ubuntu16_04_LTS_Xenial-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu18_04_LTS_Bionic-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu20_04_LTS_Focal-NOTEST-blue.svg)
+
+# 2. 部署
+
+## 2.1 下载
 ```
 git clone https://github.com/HaomingJu/vimCfg.git ~/.vim
 ```
 
-执行安装脚本
+## 2.2 执行安装脚本
 ```
 ./install.sh
 ```
 
-插件安装
+## 2.3 插件安装
 
 ```
 # Bash
@@ -29,11 +43,11 @@ vim -c :PlugInstall
 > 执行`:CocCommand clangd.install`之后`~/.vim/coc-settings.json`内将会自动设定`clangd.path`选项值
 
 
-# 文档参考
+# 3. 文档参考
 
-[快捷键文档](./doc/ShortCutKey.md)
+[功能画廊](./doc/ScreenShot.md)    |    [快捷键文档](./doc/ShortCutKey.md)
 
-# TODOs
+# 4. TODOs
 
 - [x] Automatic deployment and usage of Ubuntu16.04 (Ubuntu16.04的自动部署和使用)
 - [x] Automatic deployment and usage of Ubuntu18.04 (Ubuntu18.04的自动部署和使用)
@@ -46,7 +60,7 @@ vim -c :PlugInstall
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
 
-# Q&A
+# 5. Q&A
 
-# 其他
+# 6. 其他
 ![GitHub repo size](https://img.shields.io/github/repo-size/HaomingJu/vimCfg) 
