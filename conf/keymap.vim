@@ -33,3 +33,4 @@ noremap <Esc><Esc> :qa<CR>
 noremap tt :NERDTreeToggle<CR>
 noremap ff :TagbarToggle<CR>
 
+nmap <F8>  <Plug>(coc-fix-current)
