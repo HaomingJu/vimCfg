@@ -170,7 +170,7 @@ endfunc
 function! SetLightline()
     let g:lightline = {
                 \'active': {
-                    \ 'left': [[ 'mode', 'paste'], ['readonly', 'filename', 'modified']],
+                    \ 'left': [[ 'mode', 'paste'], ['relativepath', 'modified']],
                     \ 'right': [[ 'percent'], ['fileformat', 'fileencoding', 'filetype']]
                     \},
                 \'inactive': {'left': [[ 'filename' ]], 'right': []}
