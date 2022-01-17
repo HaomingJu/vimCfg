@@ -91,6 +91,7 @@ Plug 'Yggdroot/LeaderF',                {
             \'do': ':LeaderfInstallCExtension',
             \'on': ['LeaderfFile', 'LeaderfBufTag', 'LeaderfMru', 'LeaderfHistoryCmd', 'LeaderfBuffer']}
 Plug 'mzlogin/vim-markdown-toc',        {'for': 'markdown'}
+"Plug 'dstein64/vim-startuptime'
 call plug#end()
 
 :source ~/.vim/conf/autocmd.vim
