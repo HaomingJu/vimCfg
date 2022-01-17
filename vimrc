@@ -3,7 +3,13 @@
 " Email         :       juhaoming@126.com               "
 " Last modify   :       2020-12-16                      "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 包含其他函数
+" 兼容nvim
+if has('nvim')
+    set viminfofile=~/.vim/.nviminfo
+else
+    set viminfofile=~/.vim/.viminfo
+endif
+
 
 "启动语法检测
 syntax enable

@@ -3,3 +3,5 @@ autoload/plug.vim.old
 vim-*
 Snippets/
 Cheats/
+.viminfo
+.nviminfo

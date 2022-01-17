@@ -59,6 +59,8 @@ vim -c :PlugInstall
 - [x] Vim complete with Python3 (vim编译时支持Python3)
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
+- [x] 常用按键/配置兼容neovim
+- [ ] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
 
 # 5. Q&A
 
