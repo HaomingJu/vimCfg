@@ -1,3 +1,5 @@
+let g:coc_config_home = '~/.vim'
+
 "Coc 插件
 
 call coc#add_extension('coc-clangd', 'coc-json', 'coc-cmake', 'coc-snippets', 'coc-pairs', 'coc-pyright', 'coc-vimlsp', 'coc-docker')
