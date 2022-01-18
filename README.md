@@ -16,6 +16,9 @@
 
 ![](https://img.shields.io/badge/Ubuntu16_04_LTS_Xenial-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu18_04_LTS_Bionic-PASS-green.svg) ![](https://img.shields.io/badge/Ubuntu20_04_LTS_Focal-NOTEST-blue.svg)
 
+![](https://img.shields.io/badge/vim>=8.2-PASS-green.svg) ![](https://img.shields.io/badge/neovim>=0.7.0-PASS-green.svg)
+
+
 # 2. 部署
 
 ## 2.1 下载
@@ -60,7 +63,7 @@ vim -c :PlugInstall
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
 - [x] 常用按键/配置兼容neovim
-- [ ] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
+- [x] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
 
 # 5. Q&A
 
