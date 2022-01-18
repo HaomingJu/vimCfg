@@ -1,5 +1,8 @@
+
+
 <!-- vim-markdown-toc GFM -->
 
+* [0. 兼容](#0-兼容)
 * [1. 支持系统](#1-支持系统)
 * [2. 部署](#2-部署)
     * [2.1 下载](#21-下载)
@@ -11,6 +14,10 @@
 * [6. 其他](#6-其他)
 
 <!-- vim-markdown-toc -->
+
+# 0. 兼容
+
+<img src="https://github.com/vim/vim/raw/master/runtime/vimlogo.gif" width = "200" height = "80"  /> <img src="https://raw.githubusercontent.com/neovim/neovim.github.io/master/logos/neovim-logo-300x87.png" width = "200" height = "80"  />
 
 # 1. 支持系统
 
@@ -60,7 +67,7 @@ vim -c :PlugInstall
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
 - [x] 常用按键/配置兼容neovim
-- [ ] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
+- [x] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
 
 # 5. Q&A
 
