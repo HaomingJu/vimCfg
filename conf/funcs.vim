@@ -125,7 +125,11 @@ function! SetLeaderfF()
     noremap <C-f> :LeaderfBufTag<CR>
     noremap <C-i> :LeaderfMru<CR>
     noremap <Leader>h :LeaderfHistoryCmd<CR>
-    noremap <C-@> :LeaderfBuffer<CR>
+    if has('nvim')
+        noremap <C-Space> :LeaderfBuffer<CR>
+    else
+        noremap <C-@> :LeaderfBuffer<CR>
+    endif
 
     let g:Lf_HideHelp = 1
     let g:Lf_WindowHeight=0.3

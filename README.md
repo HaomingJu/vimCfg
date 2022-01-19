@@ -63,9 +63,8 @@ vim -c :PlugInstall
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
 - [x] 常用按键/配置兼容neovim
-- [ ] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
-- [x] Snippet支持shell脚本
-- [ ] Snippet支持Python脚本
+- [x] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
+- [x] Snippet支持shell/python脚本
 
 # 5. Q&A
 
