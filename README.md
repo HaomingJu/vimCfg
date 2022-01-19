@@ -55,7 +55,7 @@ vim -c :PlugInstall
 - [x] Automatic deployment and usage of Ubuntu16.04 (Ubuntu16.04的自动部署和使用)
 - [x] Automatic deployment and usage of Ubuntu18.04 (Ubuntu18.04的自动部署和使用)
 - [ ] Automatic deployment and usage of Ubuntu20.04 (Ubuntu20.04的自动部署和使用)
-- [ ] Show dynamic scrrentshots of features (功能动态截图展示)
+- [x] Show dynamic scrrentshots of features (功能动态截图展示)
 - [x] Vim complete with Perl (vim编译时支持Perl)
 - [x] Vim complete with Ruby (vim编译时支持Ruby)
 - [x] Vim complete with Python2 (vim编译时支持Python2)
@@ -63,7 +63,9 @@ vim -c :PlugInstall
 - [x] Complete documentation of shortcut keys (完善快捷键说明文档)
 - [x] Lazy-load for plugin (支持延迟加载)
 - [x] 常用按键/配置兼容neovim
-- [x] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
+- [ ] 完全支持neovim, neovim>=0.7与vim>=8.2操作一致
+- [x] Snippet支持shell脚本
+- [ ] Snippet支持Python脚本
 
 # 5. Q&A
 
