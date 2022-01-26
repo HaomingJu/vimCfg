@@ -92,6 +92,7 @@ Plug 'Yggdroot/LeaderF',                {
             \'on': ['LeaderfFile', 'LeaderfBufTag', 'LeaderfMru', 'LeaderfHistoryCmd', 'LeaderfBuffer']}
 Plug 'mzlogin/vim-markdown-toc',        {'for': 'markdown'}
 "Plug 'dstein64/vim-startuptime'
+Plug 'github/copilot.vim'
 call plug#end()
 
 :source ~/.vim/conf/autocmd.vim
