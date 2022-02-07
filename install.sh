@@ -46,7 +46,7 @@ echo "DONE: Install npm & nodejs" >&2
 if $build_vim; then
     rm -rf ~/.vim/build/vim
     git clone --depth 1 https://github.com/vim/vim.git ~/.vim/build/vim
-    pushd ~/.vim/vim
+    pushd ~/.vim/build/vim
     ./configure --disable-libsodium \
         --with-features=huge \
         --enable-multibyte \

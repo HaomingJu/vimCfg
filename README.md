@@ -52,6 +52,7 @@ vim -c :PlugInstall
 
 # 4. TODOs
 
+- [x] install.sh脚本同时通过最新源码编译安装vim和neovim
 - [x] Automatic deployment and usage of Ubuntu16.04 (Ubuntu16.04的自动部署和使用)
 - [x] Automatic deployment and usage of Ubuntu18.04 (Ubuntu18.04的自动部署和使用)
 - [ ] Automatic deployment and usage of Ubuntu20.04 (Ubuntu20.04的自动部署和使用)
