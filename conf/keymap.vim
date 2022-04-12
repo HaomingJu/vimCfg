@@ -28,7 +28,9 @@ nnoremap L gt
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+set timeoutlen=300
 inoremap jj <Esc>
+inoremap .. ->
 noremap <Esc><Esc> :qa<CR>
 noremap tt :NERDTreeToggle<CR>
 noremap ff :TagbarToggle<CR>
