@@ -38,7 +38,9 @@ echo "START: Install npm & nodejs" >&2
 sudo apt install -y npm
 sudo npm config set registry https://registry.npm.taobao.org 
 sudo npm install n -g 
-sudo n latest
+
+export N_NODE_MIRROR=https://npm.taobao.org/mirrors/node
+sudo n stable
 sudo n prune
 echo "DONE: Install npm & nodejs" >&2
 
