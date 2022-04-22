@@ -15,6 +15,9 @@ inoremap <silent><expr> <Tab>
       \ <SID>check_back_space() ? "\<Tab>" :
       \ coc#refresh()
 
+inoremap <expr> <c-j> pumvisible() ? "\<C-n>" : coc#refresh()
+inoremap <expr> <c-k> pumvisible() ? "\<C-p>" : coc#refresh()
+
 " 取消<C-e>原有功能, 将其置为expand展开功能
 map <C-e> <NOP>
 inoremap <silent><expr> <C-e>
