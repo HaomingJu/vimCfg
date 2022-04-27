@@ -123,13 +123,15 @@ endfunc
 function! SetLeaderfF()
     noremap <C-p> :LeaderfFile<CR>
     noremap <C-f> :LeaderfBufTag<CR>
+
     noremap <C-i> :LeaderfMru<CR>
     noremap <Leader>h :LeaderfHistoryCmd<CR>
-    if has('nvim')
-        noremap <C-Space> :LeaderfBuffer<CR>
-    else
-        noremap <C-@> :LeaderfBuffer<CR>
-    endif
+    let g:CtrlSpaceDefaultMappingKey = "<C-space> "
+    "if has('nvim')
+        "noremap <C-Space> :LeaderfBuffer<CR>
+    "else
+        "noremap <C-@> :LeaderfBuffer<CR>
+    "endif
 
     let g:Lf_HideHelp = 1
     let g:Lf_WindowHeight=0.3
@@ -140,7 +142,7 @@ function! SetLeaderfF()
     let g:Lf_WindowPosition = 'popup'
     let g:Lf_PreviewInPopup = 1
     let g:Lf_WildIgnore = {
-            \'dir': ['.git', 'build', '*output*'],
+            \'dir': ['.git', 'build', '*output*', 'devel'],
             \ 'file': ['*.o', '*.so', '*.py[co]', 'compile_commands.json']
             \}
 endfunc
@@ -160,7 +162,7 @@ endfunc
 "NERDTree 插件配置
 function! SetNERDTree()
 "autocmd vimenter * NERDTree
-    let g:NERDTreeIgnore=['^output','^install','^build', '^output_x86_64$', 'pyc$', '__init__.py', 'compile_commands.json', '.+tar.gz', 'cmake-build-debug', 'cmake-build-release']
+    let g:NERDTreeIgnore=['^devel', '^output','^install','^build', '^output_x86_64$', 'pyc$', '__init__.py', 'compile_commands.json', '.+tar.gz', 'cmake-build-debug', 'cmake-build-release']
     let g:NERDTreeWinPos='right'
     let g:NERDTreeWinSize=23
     let g:NERDTreeChDirMode=2

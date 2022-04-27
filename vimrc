@@ -6,6 +6,7 @@
 " 兼容nvim
 if has('nvim')
     set viminfofile=~/.vim/.nviminfo
+    let g:python3_host_prog = '/usr/bin/python3.6'
 else
     set viminfofile=~/.vim/.viminfo
 endif
@@ -17,6 +18,7 @@ syntax on
 filetype plugin indent on
 set encoding=UTF-8
 
+let g:startify_change_to_dir = 0
 " 其他设置
 set showcmd                           " 显示输入的命令
 set showmatch                         " 设置匹配模式，显示匹配的括号
@@ -80,7 +82,7 @@ Plug 'voldikss/vim-translator'
 Plug 'HaomingJu/vim-mark'
 
 Plug 'dyng/ctrlsf.vim',                 {'on': 'CtrlSF'}
-Plug 'neoclide/coc.nvim',               {'branch': 'release'}
+Plug 'neoclide/coc.nvim'
 Plug 'preservim/nerdtree',              {'on': 'NERDTreeToggle'}
 Plug 'majutsushi/tagbar',               {'on': 'TagbarToggle'}
 Plug 'octol/vim-cpp-enhanced-highlight',{'for': 'cpp'}
@@ -91,8 +93,10 @@ Plug 'Yggdroot/LeaderF',                {
             \'do': ':LeaderfInstallCExtension',
             \'on': ['LeaderfFile', 'LeaderfBufTag', 'LeaderfMru', 'LeaderfHistoryCmd', 'LeaderfBuffer']}
 Plug 'mzlogin/vim-markdown-toc',        {'for': 'markdown'}
-"Plug 'dstein64/vim-startuptime'
-Plug 'github/copilot.vim'
+Plug 'vim-ctrlspace/vim-ctrlspace'
+"Plug 'github/copilot.vim'
+Plug 'mbbill/undotree'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 :source ~/.vim/conf/autocmd.vim
