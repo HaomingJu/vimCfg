@@ -97,6 +97,8 @@ Plug 'vim-ctrlspace/vim-ctrlspace'
 "Plug 'github/copilot.vim'
 Plug 'mbbill/undotree'
 Plug 'vimwiki/vimwiki'
+Plug 'iamcco/markdown-preview.nvim'
+
 call plug#end()
 
 :source ~/.vim/conf/autocmd.vim
@@ -117,4 +119,6 @@ call SetTranslate()
 call SetEasyMotion()
 call SetTextRecover()
 call SwitchColor()
+call SetVimWiki()
 call Terminal_MetaMode(0)
+

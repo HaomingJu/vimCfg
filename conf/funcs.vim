@@ -124,7 +124,7 @@ function! SetLeaderfF()
     noremap <C-p> :LeaderfFile<CR>
     noremap <C-f> :LeaderfBufTag<CR>
 
-    noremap <C-i> :LeaderfMru<CR>
+    noremap <C-e> :LeaderfMru<CR>
     noremap <Leader>h :LeaderfHistoryCmd<CR>
     let g:CtrlSpaceDefaultMappingKey = "<C-space> "
     "if has('nvim')
@@ -181,4 +181,10 @@ function! SetLightline()
                     \},
                 \'inactive': {'left': [[ 'filename' ]], 'right': []}
     \}
+endfunc
+
+function! SetVimWiki()
+    let g:vimwiki_list = [{'path': '~/.vim/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+    let g:mkdp_auto_start = 1
 endfunc
