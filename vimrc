@@ -88,7 +88,7 @@ Plug 'majutsushi/tagbar',               {'on': 'TagbarToggle'}
 Plug 'octol/vim-cpp-enhanced-highlight',{'for': 'cpp'}
 Plug 'rhysd/vim-clang-format',          {'for': 'cpp', 'on': 'ClangFormat'}
 Plug 'elzr/vim-json',                   {'for': 'json'}
-Plug 'plasticboy/vim-markdown',         {'for': 'markdown'}
+"Plug 'plasticboy/vim-markdown',         {'for': 'markdown'}
 Plug 'Yggdroot/LeaderF',                {
             \'do': ':LeaderfInstallCExtension',
             \'on': ['LeaderfFile', 'LeaderfBufTag', 'LeaderfMru', 'LeaderfHistoryCmd', 'LeaderfBuffer']}
