@@ -43,6 +43,7 @@ nmap <Leader>d <Plug>(coc-definition)
 autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> <Space> :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
